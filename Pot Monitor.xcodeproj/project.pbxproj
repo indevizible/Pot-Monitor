@@ -12,9 +12,16 @@
 		90006E731E2747F200A7383F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90006E711E2747F200A7383F /* Main.storyboard */; };
 		90006E751E2747F200A7383F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90006E741E2747F200A7383F /* Assets.xcassets */; };
 		90006E781E2747F200A7383F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90006E761E2747F200A7383F /* LaunchScreen.storyboard */; };
+		90006E801E2758CE00A7383F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90006E7F1E2758CE00A7383F /* GoogleService-Info.plist */; };
+		90006E831E27754200A7383F /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90006E811E27754200A7383F /* SF-UI-Display-Light.otf */; };
+		90006E841E27754200A7383F /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90006E821E27754200A7383F /* SF-UI-Display-Regular.otf */; };
+		90006E871E27A13100A7383F /* ChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90006E861E27A13100A7383F /* ChartController.swift */; };
+		A30148917BA8C32E1802F67A /* Pods_Pot_Monitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5F7FF7F597DC351D4D7416 /* Pods_Pot_Monitor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18AA2D77252F32FB0CEDC4B3 /* Pods-Pot Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pot Monitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pot Monitor/Pods-Pot Monitor.release.xcconfig"; sourceTree = "<group>"; };
+		242191A55A1D7CDACDED9F46 /* Pods-Pot Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pot Monitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pot Monitor/Pods-Pot Monitor.debug.xcconfig"; sourceTree = "<group>"; };
 		90006E6A1E2747F200A7383F /* Pot Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pot Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90006E6D1E2747F200A7383F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90006E6F1E2747F200A7383F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		90006E741E2747F200A7383F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90006E771E2747F200A7383F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90006E791E2747F200A7383F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90006E7F1E2758CE00A7383F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90006E811E27754200A7383F /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		90006E821E27754200A7383F /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		90006E861E27A13100A7383F /* ChartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartController.swift; sourceTree = "<group>"; };
+		ED5F7FF7F597DC351D4D7416 /* Pods_Pot_Monitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pot_Monitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30148917BA8C32E1802F67A /* Pods_Pot_Monitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B127083CB94FB4486961E53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				242191A55A1D7CDACDED9F46 /* Pods-Pot Monitor.debug.xcconfig */,
+				18AA2D77252F32FB0CEDC4B3 /* Pods-Pot Monitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		90006E611E2747F100A7383F = {
 			isa = PBXGroup;
 			children = (
 				90006E6C1E2747F200A7383F /* Pot Monitor */,
 				90006E6B1E2747F200A7383F /* Products */,
+				0B127083CB94FB4486961E53 /* Pods */,
+				B9A5543FB3DFBDF134F40CF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +80,32 @@
 			children = (
 				90006E6D1E2747F200A7383F /* AppDelegate.swift */,
 				90006E6F1E2747F200A7383F /* ViewController.swift */,
+				90006E861E27A13100A7383F /* ChartController.swift */,
 				90006E711E2747F200A7383F /* Main.storyboard */,
 				90006E741E2747F200A7383F /* Assets.xcassets */,
+				90006E851E27754800A7383F /* Fonts */,
+				90006E7F1E2758CE00A7383F /* GoogleService-Info.plist */,
 				90006E761E2747F200A7383F /* LaunchScreen.storyboard */,
 				90006E791E2747F200A7383F /* Info.plist */,
 			);
 			path = "Pot Monitor";
+			sourceTree = "<group>";
+		};
+		90006E851E27754800A7383F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				90006E811E27754200A7383F /* SF-UI-Display-Light.otf */,
+				90006E821E27754200A7383F /* SF-UI-Display-Regular.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		B9A5543FB3DFBDF134F40CF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED5F7FF7F597DC351D4D7416 /* Pods_Pot_Monitor.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90006E7C1E2747F200A7383F /* Build configuration list for PBXNativeTarget "Pot Monitor" */;
 			buildPhases = (
+				8B9A29242D1EAC7293C80AFD /* [CP] Check Pods Manifest.lock */,
 				90006E661E2747F100A7383F /* Sources */,
 				90006E671E2747F100A7383F /* Frameworks */,
 				90006E681E2747F100A7383F /* Resources */,
+				2FC5BF7753AA91AB75C4209C /* [CP] Embed Pods Frameworks */,
+				B18BB38A203782FF7FEC25B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,8 +143,7 @@
 				TargetAttributes = {
 					90006E691E2747F100A7383F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = D677KHSUK6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,7 +170,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90006E831E27754200A7383F /* SF-UI-Display-Light.otf in Resources */,
 				90006E781E2747F200A7383F /* LaunchScreen.storyboard in Resources */,
+				90006E841E27754200A7383F /* SF-UI-Display-Regular.otf in Resources */,
+				90006E801E2758CE00A7383F /* GoogleService-Info.plist in Resources */,
 				90006E751E2747F200A7383F /* Assets.xcassets in Resources */,
 				90006E731E2747F200A7383F /* Main.storyboard in Resources */,
 			);
@@ -132,11 +181,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FC5BF7753AA91AB75C4209C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pot Monitor/Pods-Pot Monitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9A29242D1EAC7293C80AFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B18BB38A203782FF7FEC25B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pot Monitor/Pods-Pot Monitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90006E661E2747F100A7383F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90006E871E27A13100A7383F /* ChartController.swift in Sources */,
 				90006E701E2747F200A7383F /* ViewController.swift in Sources */,
 				90006E6E1E2747F200A7383F /* AppDelegate.swift in Sources */,
 			);
@@ -259,12 +357,14 @@
 		};
 		90006E7D1E2747F200A7383F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242191A55A1D7CDACDED9F46 /* Pods-Pot Monitor.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = D677KHSUK6;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Pot Monitor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "indevizible.Pot-Monitor";
+				PRODUCT_BUNDLE_IDENTIFIER = indevizible.PotMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,13 +372,17 @@
 		};
 		90006E7E1E2747F200A7383F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AA2D77252F32FB0CEDC4B3 /* Pods-Pot Monitor.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = D677KHSUK6;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 7J5JZ3G2QB;
 				INFOPLIST_FILE = "Pot Monitor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "indevizible.Pot-Monitor";
+				PRODUCT_BUNDLE_IDENTIFIER = indevizible.PotMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "82aaa2a1-d744-43b0-99cf-8f67b973a2cf";
+				PROVISIONING_PROFILE_SPECIFIER = "Pot Monitor AppStore";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +406,7 @@
 				90006E7E1E2747F200A7383F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
